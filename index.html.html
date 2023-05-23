@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Survey_Form</title>
+</head>
+<body><!-- form container -->
+<div class="container">
+    <h1 class="main-heading">Survey_Form:</h1>
+    <hr>
+    <!-- form start -->
+    <form class="form-class">
+  
+      <!-- Name -->
+      <div class="form-control">
+  
+        <div class="heading-field">
+          <h3 class="field-head">Customer Name </h3>
+        </div>
+        <div class="field-inputs">
+          <div class="input-div">
+            <input type="text" class="form-control-input" id="first-name" name="first name" required>
+            <div id="first-name-help" class="help-text">Enter Your First Name</div>
+          </div>
+          <div class="input-div">
+            <input type="text" class="form-control-input" id="last-name" name="last name" required>
+            <div id="last-name-help" class="help-text">Enter Your Midel Name</div>
+          </div>
+          <div class="input-div">
+            <input type="text" class="form-control-input" id="last-name" name="last name" required>
+            <div id="last-name-help" class="help-text">Enter Your last Name</div>
+          </div>
+        </div>
+      </div>
+      <!-- Name Ends -->
+  
+      <!-- Address -->
+      <div class="form-control">
+  
+        <div class="heading-field">
+          <h3 class="field-head">Address</h3>
+        </div>
+  
+        <div>
+          <div class="input-div">
+            <div id="street-address-help" class="help-text">Street Address</div>
+            <input type="text" class="form-control-input" id="street-address" name="address" required>
+          </div>
+        </div><br>
+        <div>
+          <div class="input-div">
+            <div id="street-address-2-help" class="help-text">Street Address Line 2</div>
+            <input type="text" class="form-control-input" id="street-address-2" name="street" required>
+          </div>
+        </div><br>
+  
+        <div class="field-inputs">
+          <div class="input-div">
+            <div id="city-help" class="help-text">City</div>
+            <input type="text" class="form-control-input" id="city-name" name="city" required>
+          </div><br>
+          <div class="input-div">
+            <div id="state-name-help" class="help-text">District</div>
+            <input type="text" class="form-control-input" id="state-name" name="state" required>
+          </div>
+        </div><br>
+  
+          <div class="input-div">
+            <div id="STATE-help" class="help-text">Select STATE</div>
+            <select class="form-control-input" name="STATES" required>
+              <option value="Assam">Assam</option>
+              <option value="Andhra Pradesh">Andhra Pradesh</option>
+              <option value="Bihar">Bihar</option>
+              <option value="Chhattisgarth">Chhattisgarth</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Jharkhand">Jharkhand</option>
+              <option value="Jammu & Kashmir">Jammu & Kashmir</option>
+              <option value="Kerala">Kerala</option>
+              <option value="Karanataka">Karanataka</option>
+              <option value="Maharastra">Maharastra</option>
+              <option value="Madhya Pradesh">Madhya Pradesh</option>
+              <option value="Odisha">Odisha</option>
+              <option value="Punjab">Punjab</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Telangana">Telangana</option>
+              <option value="Tamil Nadu">Tamil Nadu</option>
+              <option value="Uttarakhand">Uttarakhand</option>
+              <option value="Uttar Pradesh">Uttar Pradesh</option>
+              <option value="West Bengal">West Bengal</option>
+            </select>
+          </div>
+        </div>
+  
+      </div>
+      <!-- Address ends -->
+  
+      <!-- contact  -->
+      <div class="form-control">
+  
+        <div class="heading-field">
+          <h3 class="field-head">Contact </h3>
+        </div>
+        <div class="field-inputs">
+          <div class="input-div">
+            <input type="tel" class="form-control-input" id="first-name" name="contact" required>
+            <div id="tel-name-help" class="help-text">#Phone</div>
+          </div><br>
+          <div class="input-div">
+            <input type="email" class="form-control-input" id="email" name="email" required>
+            <div id="last-name-help" class="help-text">@Email</div>
+          </div>
+        </div>
+      </div><br>
+      <!-- contanct ends -->
+  
+      <!-- person detail  -->
+      <div class="form-control">
+        <div class="heading-field">
+          <h3 class="field-head">Personal Details </h3>
+        </div>
+        <div class="field-inputs">
+          <div class="input-div">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+          </div>
+        </div>
+      </div>
+      <!-- personal detail ends -->
+  
+      <!-- Rating for SNJB.coe -->
+      <div class="form-control">
+        <div class="heading-field">
+          <h3 class="field-head">Give Your Valuable Rating's for <br><h2  style="color: rgb(25, 64, 238);"> S.N.J.B_ Engineering College of Chandwad,Nashik </h2> </h3>
+        </div>
+        <div class="field-inputs" style="margin:0.5rem 0px ;">
+          <h5>Infrastructure of College :</h5><br>
+          <div class="input-div" style="display: flex; gap:10px;">
+            <input type="radio" id="bad" name="rating1" value="bad">
+            <label for="bad">Bad</label><br>
+            <input type="radio" id="good" name="rating1" value="good">
+            <label for="good">Good</label><br>
+            <input type="radio" id="excelent" name="rating1" value="other">
+            <label for="excelent">Excelent</label><br>
+          </div>
+        </div>
+        <div class="field-inputs" style="margin:0.5rem 0px ;">
+          <h5>College Staff Behavior :</h5><br>
+          <div class="input-div" style="display: flex; gap:10px;">
+            <input type="radio" id="bad2" name="rating2" value="bad">
+            <label for="bad2">Bad</label><br>
+            <input type="radio" id="good2" name="rating2" value="good">
+            <label for="good2">Good</label><br>
+            <input type="radio" id="excelent2" name="rating2" value="excelent">
+            <label for="excelent2">Excelent</label><br>
+          </div>
+        </div>
+        <div class="field-inputs" style="margin:0.5rem 0px ;">
+          <h5>College Canteen :</h5> <br>
+          <div class="input-div" style="display: flex; gap:10px;">
+            <input type="radio" id="bad3" name="rating3" value="bad">
+            <label for="bad3">Bad</label><br>
+            <input type="radio" id="good3" name="rating3" value="good">
+            <label for="good3">Good</label><br>
+            <input type="radio" id="excelent3" name="rating3" value="excelent">
+            <label for="excelent3">Excelent</label><br>
+          </div>
+        </div>
+        <div class="field-inputs" style="margin:0.5rem 0px ;">
+          <h5>College Campus :</h5><br>
+          <div class="input-div" style="display: flex; gap:10px;">
+            <input type="radio" id="bad4" name="rating4" value="bad">
+            <label for="bad">Bad</label><br>
+            <input type="radio" id="good4" name="rating4" value="good">
+            <label for="good4">Good</label><br>
+            <input type="radio" id="excelent4" name="rating4" value="excelent">
+            <label for="excelent4">Excelent</label><br>
+          </div>
+        </div>
+        <div class="field-inputs" style="margin:0.5rem 0px ;">
+          <h5>College ClassRoom :</h5><br><br>
+          <div class="input-div" style="display: flex; gap:10px;">
+            <input type="radio" id="bad5" name="rating5" value="bad">
+            <label for="bad">Bad</label><br>
+            <input type="radio" id="good5" name="rating5" value="good">
+            <label for="good5">Good</label><br>
+            <input type="radio" id="excelent5" name="rating5" value="excelent">
+            <label for="excelent5">Excelent</label><br>
+          </div>
+        </div>
+        <div class="field-inputs" style="margin:0.5rem 0px ;">
+          <h5>College Facility :</h5><br><br>
+          <div class="input-div" style="display: flex; gap:10px;">
+            <input type="radio" id="bad6" name="rating6" value="bad">
+            <label for="bad6">Bad</label><br>
+            <input type="radio" id="good6" name="rating6" value="good">
+            <label for="good">Good</label><br>
+            <input type="radio" id="excelent6" name="rating6" value="excelent">
+            <label for="excelent6">Excelent</label><br>
+          </div>
+        </div>
+        <div class="field-inputs" style="margin:0.5rem 0px ;">
+          <h5>College Auditorium :</h5><br>
+          <div class="input-div" style="display: flex; gap:10px;">
+            <input type="radio" id="bad7" name="rating7" value="bad">
+            <label for="bad7">Bad</label><br>
+            <input type="radio" id="good7" name="rating7" value="good">
+            <label for="good7">Good</label><br>
+            <input type="radio" id="excelent7" name="rating7" value="excelent">
+            <label for="excelent7">Excelent</label><br>
+          </div>
+        </div>
+      </div>
+      <!-- Rate ends -->
+  
+      <button type="submit"> Submit </button>
+  
+    </form>
+    <!-- form ends -->
+  </div>
+  <!-- form container ends -->
+  <h6>Made By_:<h5>Yash_J</h5></h6>
+</body>
+</html>
